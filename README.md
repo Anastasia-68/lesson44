@@ -19,6 +19,7 @@
 ```bash
 npm create vite@latest my-context-app -- --template react
 cd my-context-app
+
 2. Открой терминал в корне проекта my-context-app и выполни:
 npm install # если ещё не делали
 npm run dev
