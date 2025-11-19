@@ -1,0 +1,53 @@
+:root {
+    --bg-light: #f9f9fb;
+    --text-light: #111;
+    --bg-dark: #1f2937;
+    --text-dark: #f3f4f6;
+    --accent: #4f46e5;
+    --card: #ffffff;
+  }
+  
+  * { box-sizing: border-box; font-family: Inter, system-ui, sans-serif; }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-light);
+    color: var(--text-light);
+  }
+  
+  .app-root {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+  
+  .deep-parent.dark,
+  .mid-child.dark,
+  .user-list.dark {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  section.deep-parent,
+  .mid-child,
+  .user-list {
+    background: var(--card);
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+  }
+  
+  button {
+    padding: 0.45rem 0.8rem;
+    margin-top: 0.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: var(--accent);
+    color: white;
+  }
+  
